@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<style>
+.myBtn{
+color:cyan;
+height:40px;
+width:40px;
+}
+</style>
+<head>
+<meta charset="utf-8">
+<title>Muthu krishnan c-Portfolio</title>
+<link rel="stylesheet" href="styles.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Sacramento&display=swap"
+rel="stylesheet">
+<script>
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        document.getElementById("myBtn").style.display = "block";
+    } else {
+        document.getElementById("myBtn").style.display = "none";
+    }
+}
+
+function topFunction() {
+    window.scrollTo({top: 0, behavior: 'smooth'});
+}
+</script>
+</head>
+<body>
+  <div class="top-container">
+    <img class="top-cloud" src="cloud.png" alt="cloud-image">
+    <h1>I'm Muthu krishnan c</h1>
+    <h2>a Web Developer</h2>
+    <img class="bottom-cloud" src="cloud1.png" alt="cloud-image">
+  </div>
+  <div class="middle-container">
+    <div class="profile">
+      <img class="mydb" src="My_Profile.png" alt="My_Profile" height:200px">
+      <h2 style="font-size:38px">Hello</h2>
+      <p class="intro">I'm Muthu krishnan c.I'm a Web Developer</p>
+    </div>
+    <hr>
+    <div class="skills">
+      <h2 style="font-size:40px">My Skills.</h2>
+      <div class="skill-row">
+        <img class="skill-image1" src="checklist.png" alt="Checklist-Image">
+        <h2>Design & Development</h2>
+        <p>I am having an interest of programming and coding since i am 17 years old</p>
+        <p>I have a basic coding knowledge in some programming languages such as C, C++, Java, Python</p>
+      </div>
+      <div class="skill-row">
+        <img class="skill-image2" src="video.png" alt="Image">
+        <h2>Video Editing</h2>
+        <p>I have a basic video editing skill.During my lesuire time i am editing videos.</p>
+      </div><br>
+      <div class="skill-row">
+        <img class="skill-image1" style="height:238px;width:252px" src="os.png" alt="Linux-Image">
+        <h2>Operating Systems</h2>
+        <p>I have a strong foundation in windows & linux operating systems.I have a strong foundation in Ms-office words,excel,powerpoint skills. I have a good knowledge in linux commands.I love linux.I have a basic hacking skills</p>
+      </div>
+    <hr>
+    <div class="bottom-container">
+      <a class="footer-link" href="mailto:krishmarva43@gmail.com"><img style="width:40px" class="logo" src="Images/gmail.png"></a>
+      <a class="footer-ling" href="https://wa.me/+919150923200/"><img class="logo" src="Images/whatsapp.png"></a>
+      <p class="copyright">&copy 2023 Muthu krishnan c.</p>
+      <button type="button" onclick="topFunction()" id="myBtn">top</button>
+    </div>
+</body>
+</html>
